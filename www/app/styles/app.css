@@ -15,7 +15,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #02061e;
 }
 
 
@@ -51,7 +51,7 @@ code {
 }
 
 .navbar-default {
-	background-color: #04191f;
+	background-color: #090b2a;
 	border-color: #69102b;
 }
 .navbar-default .navbar-brand {
