@@ -15,20 +15,20 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//203.195.255.129:8080/',
+      ApiUrl: '//seroapi.gopool.cash:8080/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://129.204.197.105',
+      HttpHost: 'http://sero.gopool.cash',
       HttpPort: 9999,
 
       // Stratum mining endpoint
-      StratumHost: '129.204.197.105',
+      StratumHost: 'sero.gopool.cash',
       StratumPort: 8008,
 
 
 
       // Fee and payout details
-      PoolFee: '5%',
+      PoolFee: '1%',
       PayoutThreshold: '1 SERO',
 
       // For network hashrate (change for your favourite fork)
@@ -40,7 +40,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://127.0.0.1:8080/'
+    ENV.APP.ApiUrl = 'http://seroapi.gopool.cash:8080/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
